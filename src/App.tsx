@@ -19,7 +19,7 @@ function App() {
     }
   }, 100);
 
-  var key: string = "";
+  var key: string;
 
   const [expanded, setExpanded] = useState(false);
   const [liveChat, setLiveChat] = useState(false);
@@ -69,7 +69,7 @@ function App() {
   //   alert(fromCookie);
   // };
 
-  var chatTitleString = "";
+  var chatTitleString: string;
   if (chat) {
     if (liveChat) {
       if (waiting) {
