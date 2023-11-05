@@ -75,7 +75,7 @@ function App() {
       if (waiting) {
         chatTitleString = "Queue";
       } else {
-        chatTitleString = "Agent Name";
+        chatTitleString = "My Chat Bot Name";
       }
     } else {
       chatTitleString = "Bot Name";
